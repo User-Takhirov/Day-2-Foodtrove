@@ -1283,6 +1283,7 @@ body {
   align-items: center;
   gap: 20px;
 }
+
 .daily_best_sells_bring_nature {
   padding: 49px 85px 194px 50px;
   background-image: url(../img/daily_best_sells.jpg);
@@ -1314,13 +1315,34 @@ body {
   border: 1px solid #ececec;
   border-radius: 15px;
   width: 278px;
+
+}
+/* .daily_best_sells_title_list:before{
+  content: "";
+  background-image: url(../img/15.svg);
+  background-image: none;
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  
+} */
+.daily_best_top_btn{
+padding: 7px 20px 7px 20px;
+border-radius: 15px 0 20px 0;
+background-color: #f59758;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+color: #fff;
+margin-left: -21px;
+
 }
 .daily_best_sells_sub {
   font-weight: 400;
   font-size: 12px;
   line-height: 200%;
   color: #adadad;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 .daily_best_sells_inner_title {
   font-weight: 700;
@@ -1331,13 +1353,13 @@ body {
   margin-bottom: 10px;
 }
 .daily_star {
-  margin-bottom: 22px;
+  margin-bottom: 13px;
 }
 .daily_best_sells_price {
   font-size: 18px;
   line-height: 133%;
   color: #3bb77e;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 .daily_best_sells_span {
   font-weight: 700;
@@ -1347,14 +1369,14 @@ body {
   color: #adadad;
 }
 .daily_best_sells_line {
-  margin-bottom: 9px;
+  margin-bottom: 7px;
 }
 .dailY_best_sells_poduct_sold {
   font-weight: 400;
   font-size: 13px;
   line-height: 185%;
   color: #253d4e;
-  margin-bottom: 17px;
+  margin-bottom: 12px;
 }
 .add_to_card_btn {
   padding: 15px 65px;
@@ -1623,31 +1645,30 @@ body {
   transform: translate(83%);
 }
 
-.home_support { 
+.home_support {
   padding-top: 40px;
   padding-bottom: 114px;
 }
-.support_list{
+.support_list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1px;
 }
-.support_item{
+.support_item {
   width: 321px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
   align-items: center;
-
 }
-.support_item::before{
+.support_item::before {
   content: "";
   background-image: url(../img/support_img.svg);
   background-repeat: no-repeat;
-width: 60px;
-height: 67px;
-display: inline-block ;
-background-position: left center;
+  width: 60px;
+  height: 67px;
+  display: inline-block;
+  background-position: left center;
 }
 .support_title {
   font-weight: 600;
